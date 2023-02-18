@@ -1,12 +1,12 @@
 import React from 'react'
-import Category from '../Category/Category'
-import Jobs from '../Jobs/Jobs'
+import Banner from './Banner'
+import Toggole from './Toggole'
 
 function Home() {
   return (
     <div>
-      <Category></Category>
-      <Jobs></Jobs>
+      <Banner></Banner>
+     <Toggole></Toggole>
     </div>
   )
 }

@@ -5,7 +5,7 @@ function Category() {
     const [categories,setCategories]=useState([]);
 
     useEffect(() => {
-        fetch('https://job-portal-server-dusky.vercel.app/category')
+        fetch('https://job-portal-server-mauve.vercel.app/category')
           .then((res) => res.json())
           .then((data) => {
             setCategories(data);

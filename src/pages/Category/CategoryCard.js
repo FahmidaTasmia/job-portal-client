@@ -9,7 +9,7 @@ function CategoryCard({category}) {
      <div className="card-body grid justify-items-center">
        <h2 className="card-title text-3xl font-bold text-white ">{name}</h2>
       
-         <Link className='btn btn-secondary' to={`/category/${_id}`} >Explore Now</Link>
+         <Link className='btn btn-primary' to={`/category/${_id}`} >Explore Now</Link>
        </div>
      </div>
   )

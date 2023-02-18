@@ -5,7 +5,7 @@ import Card from './Card';
 function Jobs() {
   const [jobs,setJobs]=useState([]);
   useEffect(() => {
-    fetch('https://job-portal-server-dusky.vercel.app/allJob')
+    fetch('https://job-portal-server-mauve.vercel.app/allJob')
       .then((res) => res.json())
       .then((data) => {
         setJobs(data);

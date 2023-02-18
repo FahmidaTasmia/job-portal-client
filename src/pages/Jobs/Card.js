@@ -1,6 +1,7 @@
 import React from 'react'
 import {CiLocationOn,CiSignpostDuo1 } from "react-icons/ci";
 import { MdOutlineAttachMoney } from "react-icons/md";
+import { Link } from 'react-router-dom';
 function Card({job}) {
     const {Logo,CName,Location,Title,Position,salary} = job;
   return (
@@ -15,7 +16,7 @@ function Card({job}) {
 
       </div>
  <div>
- <p className='btn btn-primary my-5'>Apply Now</p>
+ <Link  to="/login" className='btn btn-primary my-5'>Apply Now</Link>
  </div>
     </div>
   )
